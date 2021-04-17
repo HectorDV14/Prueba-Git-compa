@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class DeathStar {
 	private String nombre;
@@ -132,5 +133,16 @@ public class DeathStar {
 		}
 		return cont;
 	}
+	
+//Changes added toString method
+	@Override
+	public String toString() {
+		return "DeathStar [nombre=" + nombre + ", galaxia=" + galaxia + ", siths=" + Arrays.toString(siths)
+				+ ", toString()=" + super.toString() + "]";
+	}
+	
+	
+	
+	
 	
 }
