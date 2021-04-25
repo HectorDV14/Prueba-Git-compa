@@ -29,6 +29,10 @@ public class Padawan {
 		this.potencial = potencial;
 		this.planetaProcedencia = planetaProcedencia;
 	}
+	
+	public Padawan() {
+		
+	}
 
 	//Getters y Setters
 	public String getNombre() {
