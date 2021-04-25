@@ -18,6 +18,10 @@ public class Jedi {
 		this.padawanes=padawanes;
 	}
 	
+	public Jedi() {
+		
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
